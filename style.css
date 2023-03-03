@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2.5rem;
+  }
+  
+  #game {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .hole {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid black;
+    position: relative;
+  }
+  
+  .mole {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: brown;
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    display: none;
+  }
+  
+  .hit {
+    background-color: green;
+  }
+  
+  button {
+    background-color: #d0e60c;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  
